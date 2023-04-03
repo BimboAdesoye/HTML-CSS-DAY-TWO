@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/sample.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sample Page</title>
+  </head>
+  <body>
+    <nav>
+      <h4>Eggys</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+    <!-- =========================================================== -->
+    <section class="section-1">
+      <p>Sample</p>
+      <p class="para">Another P tag</p>
+      <img src="/assets/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg" alt="" />
+      <h2>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore vero
+        temporibus iusto, tempora, unde illum at incidunt, voluptate
+        consequuntur quae odit accusamus earum repellat voluptas amet! Labore,
+        accusamus! Quam molestias facere quibusdam expedita. Quidem assumenda,
+        illo amet repellat deserunt numquam.
+      </h2>
+      <a href="#">facebook</a>
+      <h3>font weight</h3>
+      <h1>font style and font family</h1>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- Selectors -- simple selectors(id, class, element), universal,combinator(descendant, child) group, pseudo-classes and pseudo-elements, attribute selectors -->
+    <!-- ====================================================== -->
+    <section class="section-2">
+      <p class="para">Explaining class selector</p>
+      <p class="para">Using para as a class for the 2 p tags in this section</p>
+      <p id="id-of-paragraph">Explaining Id selector</p>
+    </section>
+
+    <!-- ====================================================== -->
+    <!--For combinator (descendant and child selectors) -->
+    <!-- ====================================================== -->
+    <section class="section-3">
+      <p>Paragraph 1 in this section-3</p>
+      <p>Paragraph 2 in this section-3</p>
+      <div>
+        <p>Paragraph 3 in this section-3</p>
+      </div>
+      <p>Lorem ipsum dolor sit.</p>
+    </section>
+    <p>Paragraph 4 not in section-3</p>
+    <p>Paragraph 5 not in section-3</p>
+
+    <!-- ====================================================== -->
+    <!-- For group selector -->
+    <!-- ====================================================== -->
+    <section class="section-4">
+      <h2>H2 tag of section-4</h2>
+      <h1>H1 tag of section-4</h1>
+      <p>P tag of section-4</p>
+      <h4>H4 tag of section-4</h4>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- Pseudo-classes(uses a single colon) -->
+    <!-- ====================================================== -->
+    <section class="section-5">
+      <img
+        src="/assets/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg"
+        alt="shopping cart icon"
+      />
+      <form>
+        <input type="text" placeholder="type your name..." />
+      </form>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- Pseudo-elements(uses a double colon) -->
+    <!-- ====================================================== -->
+    <section class="section-6">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+        perspiciatis fugit perferendis blanditiis maxime ratione. Fugit dolor
+        ipsa eveniet, nihil officia similique culpa ullam dolorem dignissimos
+        iusto sit distinctio! Officiis facere doloremque cum eos, velit ducimus
+        fugit amet inventore quidem impedit, vitae illum laudantium facilis
+        sapiente repudiandae beatae debitis quis nesciunt iste ea ullam? Earum
+        nemo facilis repellat minus ea labore laborum placeat quisquam! Quam sit
+        neque fuga dolorem sunt ab reprehenderit quod assumenda, earum nisi
+        laudantium natus aliquam ea fugit mollitia repudiandae magnam quasi
+        temporibus saepe non consectetur tempora rerum, nemo odit! Porro dolorem
+        facilis, aut dolorum animi natus!
+      </p>
+    </section>
+
+    <!-- ====================================================== -->
+    <!--attribute selectors (styling based on the elements attribute) -->
+    <!-- ====================================================== -->
+    <section class="section-7">
+      <form action="">
+        <input type="password" name="" id="" placeholder="password..." />
+        <input type="email" name="" id="" placeholder="email" />
+      </form>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- Box Model -->
+    <!-- Box model is a box that wraps around every html element. It consists of margins, borders, padding and the actual element.-->
+    <!-- 1) Content- The content of the box. text, images, etc -->
+    <!-- 2) Padding- Clears an area around the content, padding is transparent. -->
+    <!-- 3) Border- The border goes around the padding and content -->
+    <!-- 4) Margin- Clears an area outside the border. Margin is also transparent. -->
+    <!-- ========================== -->
+    <!-- Padding -->
+    <!-- The css padding properties are use to generate space around an element's content, inside of any defined borders...see below for the padding properties which we can use to have full control of the element. -->
+    <!-- Padding right -->
+    <!-- Padding left -->
+    <!-- Padding bottom -->
+    <!-- Padding top -->
+    <!-- =========================================================== -->
+    <section class="section-8">
+      <h2>Using individual padding properties</h2>
+      <div>
+        <p>
+          This div will have a top padding of 4rem, a right padding of 3rem, a
+          bottom padding of 4rem and a left padding of 6rem
+        </p>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- The position properties -->
+    <!-- <button>Submit</button> -->
+
+    <!-- ====================================================== -->
+    <!-- /* First-of-type, Fisrt-child, Last-child, Last-of-type, Nth child, Nth-of-type  */ -->
+    <!-- ====================================================== -->
+    <!-- <section class="section-9">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+        voluptatem!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+        voluptatem!
+      </p>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+        inventore corporis ex sapiente possimus. Id impedit delectus labore enim
+        deserunt?
+      </div>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+      <div class="box">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          eveniet expedita minus. Aspernatur atque praesentium repellat suscipit
+          incidunt ea quibusdam?
+        </p>
+      </div>
+      <div class="box-2">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          eveniet expedita minus. Aspernatur atque praesentium repellat suscipit
+          incidunt ea quibusdam?
+        </p>
+      </div>
+    </section> -->
+
+    <section class="section-9">
+      <div class="box red">red</div>
+      <div class="box green">green</div>
+      <div class="box yellow">yellow</div>
+      <div class="box blue">blue</div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CSS Flexbox -->
+    <!-- To use flexbox we need a parent container (a div or a semantic tag) with a declaration of position: flex. Flexbox has other properties like justify-content, align-items, align-content, gap, etc See below for examples. -->
+    <!-- ============================================================ -->
+    <section class="section-10">
+      <div class="box Green">1</div>
+      <div class="box Red">2</div>
+      <div class="box Blue">3</div>
+      <div class="box Yellow">4</div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section>
+      <div class="container">
+        <div class="testimonial">
+          <div class="div1">
+            <div class="joseph"></div>
+            <div class="peter"></div>
+          </div>
+          <div class="div2">
+            <div class="rilwan"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
